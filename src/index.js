@@ -43,7 +43,7 @@ function main() {
       break;
     }
     default: {
-      console.log('Доступні команди: add <text>, list, done <id>, delete <id>');
+      console.log('Доступні дії: add, list, done, delete (версія B)');
     }
   }
 }
