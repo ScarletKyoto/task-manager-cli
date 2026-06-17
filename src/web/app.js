@@ -1,3 +1,5 @@
+document.getElementById('app-status').textContent = import.meta.env.VITE_APP_STATUS;
+
 let tasks = [];
 
 function render() {

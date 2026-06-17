@@ -4,8 +4,12 @@
   "type": "module",
   "description": "Task Manager CLI - консольний застосунок для управління завданнями",
   "main": "src/index.js",
-"scripts": {
+  "scripts": {
     "start": "node src/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
     "test:unit": "vitest",
     "test:unit:coverage": "vitest --coverage",
     "test:e2e": "playwright test"
@@ -15,6 +19,7 @@
   "devDependencies": {
     "@playwright/test": "^1.61.0",
     "@vitest/coverage-v8": "^4.1.9",
+    "vite": "^8.0.16",
     "vitest": "^4.1.9"
   }
 }
