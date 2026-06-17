@@ -43,7 +43,9 @@ function main() {
       break;
     }
     default: {
-      console.log('Команди: add, list, done, delete (версія A)');
+HEAD
+      console.log('Команди: add, list, done, delete (версії A+B об\'єднано)');
+feature/conflict-b
     }
   }
 }
