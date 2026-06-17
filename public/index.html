@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <style>
+    body { font-family: sans-serif; max-width: 500px; margin: 40px auto; }
+    li { display: flex; justify-content: space-between; padding: 6px 0; }
+    li.done span { text-decoration: line-through; color: gray; }
+    input { padding: 6px; width: 70%; }
+    button { padding: 6px 12px; }
+  </style>
+</head>
+<body>
+  <h1>Task Manager</h1>
+
+  <form id="add-form">
+    <input id="task-input" type="text" placeholder="Нове завдання..." required />
+    <button type="submit">Додати</button>
+  </form>
+
+  <ul id="task-list"></ul>
+
+  <script src="./app.js"></script>
+</body>
+</html>
