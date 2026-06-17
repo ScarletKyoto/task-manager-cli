@@ -1,0 +1,12 @@
+{
+  "name": "task-manager-cli",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Task Manager CLI - консольний застосунок для управління завданнями",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
