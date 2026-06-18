@@ -1,5 +1,9 @@
 # Task Manager CLI
 
+[![CI/CD Pipeline](https://github.com/ScarletKyoto/task-manager-cli/actions/workflows/main.yml/badge.svg)](https://github.com/ScarletKyoto/task-manager-cli/actions/workflows/main.yml)
+
+🌐 **Live Demo:** [task-manager-cli-64m2.vercel.app](https://task-manager-cli-64m2.vercel.app/)
+
 Консольний застосунок для управління особистими завданнями (To-Do List) прямо з терміналу. Дозволяє швидко додавати, переглядати, позначати виконаними та видаляти завдання без потреби відкривати браузер чи громіздкий GUI.
 
 ## Стек технологій
